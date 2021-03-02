@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">tp5_intent</string>
+    <string name="type_your_name_please">Type your Name Please !</string>
+    <string name="name">Name</string>
+    <string name="go_to_activity_2">Go to Activity 2</string>
+</resources>

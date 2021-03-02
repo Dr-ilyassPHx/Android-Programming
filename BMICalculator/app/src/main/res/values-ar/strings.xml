@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حاسبة مؤشر كتلة الجسم</string>
+    <string name="editText_height">أدخل طولك (متر)</string>
+    <string name="editText_weight">أدخل وزنك (كجم)</string>
+    <string name="btn_calculate">احسب مؤشر كتلة الجسم</string>
+    <string name="textView_BMI">مؤشر كتلة الجسم :</string>
+    <string name="textView_Category">الفئة :</string>
+    <string name="category1">نقص التغذية</string>
+    <string name="category2">ركاكة</string>
+    <string name="category3">جسم طبيعي</string>
+    <string name="category5">سمنة معتدلة</string>
+    <string name="category6">السمنة المفرطة</string>
+    <string name="category7">السمنة المرضية</string>
+    <string name="category4">بدين</string>
+</resources>

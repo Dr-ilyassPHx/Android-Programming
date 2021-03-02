@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IMC calculateur</string>
+    <string name="editText_height">Entrez votre taille (mètre)</string>
+    <string name="editText_weight">Entrez votre poids (kg)</string>
+    <string name="btn_calculate">Calculer l\'IMC</string>
+    <string name="textView_BMI">IMC:</string>
+    <string name="textView_Category">Catégorie :</string>
+    <string name="category1">Dénutrition</string>
+    <string name="category3">Corpulence normale</string>
+    <string name="category4">Surpoids</string>
+    <string name="category5">Obésité modérée</string>
+    <string name="category6">Obésité sévère</string>
+    <string name="category7">Obésité morbide</string>
+    <string name="category2">maigreur</string>
+</resources>

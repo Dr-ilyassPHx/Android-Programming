@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchActivity">
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="236dp"
+        android:layout_height="85dp"
+        android:backgroundTint="#FF1744"
+        android:onClick="goToAddActivity"
+        android:text="+ Add a student"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lv"
+        app:layout_constraintVertical_bias="0.252" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="370dp"
+        android:layout_height="281dp"
+        android:layout_below="@id/vSearch"
+        android:layout_marginTop="11dp"
+        android:divider="#ad5"
+        android:dividerHeight="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vSearch"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <SearchView
+        android:id="@+id/vSearch"
+        android:layout_width="373dp"
+        android:layout_height="62dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search By Names"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

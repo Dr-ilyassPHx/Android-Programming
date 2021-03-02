@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BMICalculator</string>
+    <string name="editText_height">Enter your Height (meter) </string>
+    <string name="editText_weight">Enter your Weight (kg) </string>
+    <string name="btn_calculate">Calculate BMI</string>
+    <string name="textView_BMI">BMI :</string>
+    <string name="textView_Category">Category :</string>
+
+    <string name="category1">Undernutrition</string>
+    <string name="category2">Thinness</string>
+    <string name="category3">Normal body</string>
+    <string name="category4">Overweight</string>
+    <string name="category5">Moderate obesity</string>
+    <string name="category6">Severe obesity</string>
+    <string name="category7">Morbid obesity</string>
+
+
+
+
+</resources>

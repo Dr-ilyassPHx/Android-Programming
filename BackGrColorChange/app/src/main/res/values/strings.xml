@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BackGrColorChange</string>
+    <string name="color_changer">Color Changer</string>
+</resources>

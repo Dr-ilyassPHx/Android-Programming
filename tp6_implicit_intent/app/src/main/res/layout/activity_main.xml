@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnCallFriend"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnGooglePage"
+        android:layout_width="217dp"
+        android:layout_height="83dp"
+        android:background="#E91E63"
+        android:backgroundTint="#E91E63"
+        android:onClick="googlePage"
+        android:text="Go to Google"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <Button
+        android:id="@+id/btnViewMap"
+        android:layout_width="215dp"
+        android:layout_height="83dp"
+        android:background="#FF9800"
+        android:backgroundTint="#FF9800"
+        android:onClick="viewMap"
+        android:text="View INPT in Map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206" />
+
+    <Button
+        android:id="@+id/btnCallAFriend"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:background="#009688"
+        android:backgroundTint="#009688"
+        android:onClick="callAFriend"
+        android:text="Call A Friend"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357"
+        app:strokeColor="#009688" />
+
+    <Button
+        android:id="@+id/btnSMS"
+        android:layout_width="228dp"
+        android:layout_height="83dp"
+        android:onClick="sendSMS"
+        android:text="SEND SMS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="223dp"
+        android:layout_height="84dp"
+        android:onClick="sendMail"
+        android:text="SEND EMAIL"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.641" />
+
+    <Button
+        android:id="@+id/btnAnthem"
+        android:layout_width="218dp"
+        android:layout_height="75dp"
+        android:onClick="playAnthem"
+        android:text="PLAY ANTHEM"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773" />
+</androidx.constraintlayout.widget.ConstraintLayout>

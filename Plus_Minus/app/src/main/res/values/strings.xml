@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Count up / Count down </string>
+    <string name="multiple_of_ten"> Counter started </string>
+</resources>

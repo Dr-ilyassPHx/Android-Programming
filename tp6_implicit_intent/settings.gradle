@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "“tp6_implicit_intent"
